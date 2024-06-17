@@ -2,7 +2,7 @@ package com.sparta.mg;
 //Read, Maintain, Test
 public class Program {
     public static void main(String[] args) { //entry point (methods)
-        int timeOfDay = 10; //type, name, value.
+        int timeOfDay = 12; //type, name, value.
         System.out.println(getGreeting(timeOfDay));
     }
 
