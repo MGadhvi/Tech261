@@ -1,7 +1,7 @@
-package com.sparta.mg;
+package com.sparta.mg.animals;
 
 //State and Behaviour
-public abstract class Animal {
+public abstract class Animal implements Drinkable{
 
     private String name;
     private String breed;
@@ -40,4 +40,6 @@ public abstract class Animal {
     public void play() {
         System.out.println(name + " wants to play");
     }
+
+    public abstract void eat();
 }
