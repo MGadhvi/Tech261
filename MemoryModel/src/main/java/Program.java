@@ -1,29 +1,32 @@
+import java.util.Arrays;
+
 public class Program
 {
     public static void main(String[] args)
     {
-        int aston = 4;
-        String dj = "Diarmuid";
-        int[] jack = { 6, 7, 2 };
-        for (var adam = 0; adam < jack.length; adam++)
+        int ben = 4;
+        String chris = "Chris";
+        int[] devin = { 6, 7, 2 };
+        for (var eliza = 0; eliza < devin.length; eliza++)
         {
-            System.out.println(jack[adam]);
+            System.out.println(devin[eliza]);
         }
 
-        double siyu = 3.14159;
-        var will = aston;
-        aston++;
-        String[] mohammed = { "cat", "dog" };
+        double gilbert = 3.14159;
+        var jack = ben;
+        ben++;
+        String[] jayden = { "cat", "dog" };
         {
-            var john = jack;
-            john[2] = 42;
-            String[] eve = { "perch", "cod", "eel" };
-            mohammed = eve;
-            mohammed[1] = "bass";
-            var tom = will;
-            dj = eve[0];
+            var kat = devin;
+            kat[2] = 42;
+            String[] kian = { "perch", "cod", "cat" };
+            jayden = kian;
+            jayden[1] = "bass";
+            var lewis = jack;
+            chris = kian[0];
+            kian[0] = "salmon";
         }
-        siyu = jack[2];
+        gilbert = devin[2];
     }
 }
 
