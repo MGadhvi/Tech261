@@ -8,6 +8,7 @@ import java.util.logging.LogRecord;
 public class CustomFormatter extends Formatter {
     @Override
     public String format(LogRecord record) {
+        //todo: Try and use String builder instead
         return LocalDate.now().format(DateTimeFormatter.BASIC_ISO_DATE)
                 + " " + record.getSourceClassName()
                 + " " + record.getLevel()
